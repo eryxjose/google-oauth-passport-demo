@@ -10,6 +10,7 @@
 * Install lib cookieSession to manage cookies authentication on the application
 * Config app to use cookieSession
 * Create handler to test req.user
+* Signout user implementation
 * 
 
 
