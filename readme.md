@@ -9,6 +9,8 @@
 * Passport serialize and deserialize user info
 * Install lib cookieSession to manage cookies authentication on the application
 * Config app to use cookieSession
+* Create handler to test req.user
+* 
 
 
 # Node modules install
