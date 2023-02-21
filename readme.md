@@ -1,6 +1,13 @@
 # Projeto demo google auth passport 
 
-
+...
+* Express api google auth endpoints and configs
+* Mongoose model and connection
+* Nodemon install and config
+* Refactor index to routes and services
+* Passport and passport google strategy install and config
+* Passport serialize and deserialize user info
+* Install lib cookieSession to manage cookies authentication on the application
 
 
 # Node modules install
