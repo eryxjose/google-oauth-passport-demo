@@ -8,6 +8,7 @@
 * Passport and passport google strategy install and config
 * Passport serialize and deserialize user info
 * Install lib cookieSession to manage cookies authentication on the application
+* Config app to use cookieSession
 
 
 # Node modules install
@@ -16,7 +17,7 @@ Install git-scm
 Install NodeJS
 npm install --save passport passport-google-oauth20
 npm install --save nodemon
-
+npm install --save cookie-session
 
 
 # Refs
@@ -26,6 +27,21 @@ https://www.passportjs.org/packages/passport-google-oauth20/
 https://cloud.mongodb.com/
 
 
+# Fixes
+
+...
+
+  Required Temporary Update for "req.session.regenerate is not a function"
+  In the upcoming lecture, we will be testing our authentication flow. Passport v.0.6.0 (released very recently) is currently broken due to an incompatibility:
+
+  https://github.com/jaredhanson/passport/issues/907
+
+  The maintainer suggests using the latest v0.5.0 until a fix is pushed out.
+
+  npm uninstall passport
+
+  npm install passport@0.5
+...
 
 # Passo a passo configurações projeto no google cloud
 
